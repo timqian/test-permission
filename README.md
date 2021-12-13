@@ -9,7 +9,7 @@
     1. 当定义的多函数位于不同文件夹时会出现权限丢失情况(可使用 `x-permission-lost` 文件夹中事例代码复现)
     ![](./ddd.png)
 
-确认该权限丢失 bug 是发生在 multi-scf 组件通过多文件夹部署多个函数时发生（multi-scf component 内部逻辑）。
+确认该权限丢失 bug 是发生在 multi-scf 组件通过多文件夹部署多个函数时（multi-scf component 内部逻辑）。
 
 ## 如何测试
 1. 在 codespace 打开该 repo
