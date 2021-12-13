@@ -4,7 +4,7 @@
 
 1. 对于 scf/http 等 component 未发现执行权限丢失情况
 1. 对于 multi-scf component
-    1. 当多个函数代码位于同一目录(当前目录)，权限不会丢失(可使用 `x-permission-lost` 文件夹中事例代码复现)
+    1. 当多个函数代码位于同一目录(与 `inputs.src` 相同目录)，权限不会丢失(可使用 `x-permission-lost` 文件夹中事例代码复现)
     ![](./ccc.png)
     1. 当定义的多函数位于不同文件夹时会出现权限丢失情况(可使用 `x-permission-lost` 文件夹中事例代码复现)
     ![](./ddd.png)
