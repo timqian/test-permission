@@ -1,0 +1,16 @@
+component: multi-scf
+name: permission-issue2
+app: p2
+inputs:
+  src:
+    src: ./
+    exclude:
+      - .env
+  functions:
+    - name: ccc
+      src: ./
+      handler: index.main_handler
+      memorySize: 512
+      asyncRunEnable: true
+      traceEnable: true
+
