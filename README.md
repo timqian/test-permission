@@ -12,7 +12,7 @@
 确认该权限丢失 bug 是发生在 multi-scf 组件通过多文件夹部署多个函数时（multi-scf component 内部逻辑）。
 
 ## 如何测试
-1. 在 codespace 打开或 clone 该 repo
+1. clone 或在 codespace 打开该 repo
 1. 在 `.env` 文件填入 `secrets`
 1. 进入 x-permission-remain & x-permission-lost 文件夹，执行 `sls deploy`
 1. 至腾讯云 scf 控制台查看 ffmpeg 文件权限
